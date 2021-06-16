@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header {
+    text-align: center;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+    margin: 5px;
+}
+
+.game-square {
+    border: 3px solid black;
+    padding: 155px;
+    text-align: center;
+
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.reset-btn {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 18px;
+}
